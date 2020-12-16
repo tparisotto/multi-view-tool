@@ -1,13 +1,10 @@
 ## Multi-View Projections Generator
 
-Generates views regularly positioned on a sphere around the object.
+Generates projections from viewpoints regularly positioned on a sphere around an object.
 
-This implementation renders plain images and depth images of views from
-viewpoints regularly distributed on a specified number rings parallel to the x-y plain,
-spaced vertically on a sphere around the object.
+This implementation renders plain images and depth images of views from viewpoints regularly distributed on a specified number rings parallel to the x-y plain, spaced vertically on a sphere around the object.
 
-It also generates a csv file with the entropy values of the object views
-alongside the camera spherical coordinates.
+It also generates a csv file with the entropy values of the object views alongside the camera spherical coordinates.
 
 ### Usage:
 Ensure you are running Python 3
